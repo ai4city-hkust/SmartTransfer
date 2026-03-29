@@ -112,8 +112,7 @@ If you find our work useful in your research please consider citing the ProbGLC 
 ```
 @article{li2025proglc,
      title={Towards Generative Location Awareness for Disaster Response: A Probabilistic Cross-view Geolocalization Approach},
-     author={Hao Li, Liwei Zou, Wenping Yin, Gulsen Taskin, Naoto Yokoya, Danfeng Hong and
-Wufan Zhao},
+     author={Hao Li, Liwei Zou, Wenping Yin, Gulsen Taskin, Naoto Yokoya, Danfeng Hong and Wufan Zhao},
      year={2026},
      eprint={},
      archivePrefix={arXiv},
