@@ -1,0 +1,34 @@
+# --dinov3--
+arch: dinov3
+mode: zershot
+fullsup: True
+lambda_pc: 0
+lambda_dpt: 0
+save_dir: ./outputs/fullsup/dinov3
+
+
+# --resnet18--
+# arch: resnet18
+# mode: zershot
+# fullsup: True
+# lambda_pc: 0
+# lambda_dpt: 0
+# save_dir: ./outputs/fullsup/resnet18
+
+
+# --resnet152--
+# arch: resnet152
+# mode: zershot
+# fullsup: True
+# lambda_pc: 0
+# lambda_dpt: 0
+# save_dir: ./outputs/fullsup/resnet152
+
+
+# --yololiked--
+# arch: yoloiked
+# mode: zershot
+# fullsup: True
+# lambda_pc: 0
+# lambda_dpt: 0
+# save_dir: ./outputs/fullsup/yololiked

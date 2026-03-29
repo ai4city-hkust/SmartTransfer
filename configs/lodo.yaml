@@ -1,0 +1,11 @@
+arch: dinov3
+mode: zershot
+fullsup: False
+lambda_pc: 0.01    # 0 0.01
+lambda_dpt: 0.001   # 0 0.001
+save_dir: ./outputs/lodo/gaziantep/pcdpt   # raw pc dpt pcdpt
+
+# Leave-One-Domain-Out (LODO) setting
+# "gaziantep","hatay","kahramanrarus","kirikhan","nurdagi","sackcagozu","satirhuyuk","sekeroba","turkoglu"
+source_regions: ["hatay","kahramanrarus","kirikhan","nurdagi","sackcagozu","satirhuyuk","sekeroba","turkoglu"]
+target_regions: ["gaziantep"]

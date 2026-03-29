@@ -1,0 +1,11 @@
+arch: dinov3
+mode: zershot
+fullsup: False
+lambda_pc: 0.01    # 0 0.01
+lambda_dpt: 0.001   # 0 0.001
+save_dir: ./outputs/ssdc/kahramanrarus/pcdpt   # raw pc dpt pcdpt
+
+# Specific Source Domain Combination (SSDC) setting
+# "gaziantep","hatay","kahramanrarus","kirikhan","nurdagi","sackcagozu","satirhuyuk","sekeroba","turkoglu"
+source_regions: ["kahramanrarus"]
+target_regions: ["gaziantep","hatay","kirikhan","nurdagi","sackcagozu","satirhuyuk","sekeroba","turkoglu"]
