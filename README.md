@@ -1,8 +1,8 @@
 # SmartTransfer
 
-### Smart Transfer: Leveraging Vision Foundation Models for Rapid Building Damage Mapping with Post-Earthquake VHR Imagery
+### Smart Transfer: Leveraging Vision Foundation Models for Rapid Building Damage Mapping with Post-Earthquake VHR Imagery 🚁
 
-In this paper, we introduce Smart Transfer, a novel Geospatial Artificial Intelligence (GeoAI) framework designed to accelerate building damage mapping and support rapid disaster response.
+In this paper, we propose a novel Foundation Model-based  GeoAI framework, namely Smart Transfer, leveraging prototype clustering and spatial autocorrelation to adapt state-of-the-art vision FM backbones for robust cross-regional building damage mapping, with minimal training and ground truth labels.
 
 <p align="center">
   <img src="./images/Diagram.png" width="60%">
@@ -108,6 +108,19 @@ We also provide additional configurations for varying training ratios and few-sh
 
 ## 📖 Reference
 
+If you find our work useful in your research please consider citing the ProbGLC paper.
+```
+@article{li2025proglc,
+     title={Towards Generative Location Awareness for Disaster Response: A Probabilistic Cross-view Geolocalization Approach},
+     author={Hao Li, Liwei Zou, Wenping Yin, Gulsen Taskin, Naoto Yokoya, Danfeng Hong and
+Wufan Zhao},
+     year={2026},
+     eprint={},
+     archivePrefix={arXiv},
+     primaryClass={cs.CV},
+     url={},
+}
+```
 
 
 ## 🧑‍🤝‍🧑 Acknowledge
