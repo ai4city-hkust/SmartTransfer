@@ -1,4 +1,4 @@
-# Smart Transfer
+# SmartTransfer
 
 ### Smart Transfer: Leveraging Vision Foundation Models for Rapid Building Damage Mapping with Post-Earthquake VHR Imagery
 
@@ -25,14 +25,14 @@ We provide download links for the following components:
 - tiles_meta
 - GlobalBuildingAtlas (derived from: https://doi.org/10.5194/essd-17-6647-2025)
 
-**Google Drive**:  
+**Google Drive**: 
 https://drive.google.com/drive/folders/1JSuWZE46PF0tpB_cU0-MpEnelA5cxGfj?usp=sharing
 
-**Baidu Netdisk (百度网盘)** (Password: `2026`):
-https://pan.baidu.com/s/1a6UvOLxcE_BWcq-qgpOGLA
+**Baidu Netdisk (百度网盘)**: 
+https://pan.baidu.com/s/1a6UvOLxcE_BWcq-qgpOGLA (Password: `2026`)
 
 <p align="center">
-  <img src="./images/Dataset.jpeg" width="80%">
+  <img src="./images/Dataset.jpeg" width="95%">
 </p>
 
 The following components are **not included** and need to be downloaded manually:
@@ -47,7 +47,7 @@ https://github.com/facebookresearch/dinov3?tab=readme-ov-file
 
 ### 🔹 Overview
 <p align="center">
-  <img src="./images/Flowchat.png" width="80%">
+  <img src="./images/Flowchat.png" width="90%">
 </p>
 
 Smart Transfer consists of three stages:
@@ -55,22 +55,21 @@ Smart Transfer consists of three stages:
 2. **Warm-up** – stabilize feature representations  
 3. **Smart Transfer** – enable cross-region adaptation  
 
-
 ### 👉 Core Components
 
-**Pixel-wise Clustering (PC)**  
+>**PC (Pixel-wise Clustering)**  
 Regularizes pixel embeddings via class-conditional prototypes, improving feature consistency across domains.
 
-**Distance-Penalized Triplet (DPT)**  
+>**DPT (Distance-Penalized Triplet)**  
 Applies patch-level regularization by enforcing spatial consistency between adjacent regions.
 
 
 ### 👉 Transfer Settings
 
-**LODO (Leave-One-Domain-Out)**  
+>**LODO (Leave-One-Domain-Out)**  
 Train on multiple source domains and test on an unseen target domain to evaluate generalization.
 
-**SSDC (Specific Source Domain Combination)**  
+>**SSDC (Specific Source Domain Combination)**  
 Control source domain selection based on damage severity and geographic distance to analyze transfer effects.
 
 ### 🏃 Training the model
@@ -103,8 +102,8 @@ We provide multiple configuration files for different settings in the `configs/`
 For LODO and SSDC, you can adjust the source and target regions to explore different transfer settings.
 
 We also provide additional configurations for varying training ratios and few-shot scenarios:
-- `train_ratio.yaml`
-- `fewshot.yaml`
+- **Training ratios**: `train_ratio.yaml`
+- **Few-shot**: `fewshot.yaml`
 
 
 ## 📖 Reference
