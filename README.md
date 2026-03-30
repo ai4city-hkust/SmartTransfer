@@ -110,8 +110,8 @@ We also provide additional configurations for varying training ratios and few-sh
 
 If you find our work useful in your research please consider citing the ProbGLC paper.
 ```
-@article{li2025proglc,
-     title={Towards Generative Location Awareness for Disaster Response: A Probabilistic Cross-view Geolocalization Approach},
+@article{li2026SMART,
+     title={Smart Transfer: Leveraging Vision Foundation Models for Rapid Building Damage Mapping with Post-Earthquake VHR Imagery},
      author={Hao Li, Liwei Zou, Wenping Yin, Gulsen Taskin, Naoto Yokoya, Danfeng Hong and Wufan Zhao},
      year={2026},
      eprint={},
