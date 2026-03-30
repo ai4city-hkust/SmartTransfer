@@ -1,8 +1,8 @@
 # SmartTransfer
 
-### Smart Transfer: Leveraging Vision Foundation Models for Rapid Building Damage Mapping with Post-Earthquake VHR Imagery
+### Smart Transfer: Leveraging Vision Foundation Models for Rapid Building Damage Mapping with Post-Earthquake VHR Imagery 🚁
 
-In this paper, we introduce Smart Transfer, a novel Geospatial Artificial Intelligence (GeoAI) framework designed to accelerate building damage mapping and support rapid disaster response.
+In this paper, we propose a novel Foundation Model-based  GeoAI framework, namely **Smart Transfer**, leveraging prototype clustering and spatial autocorrelation to adapt **state-of-the-art vision FM** backbones for robust **cross-regional building damage mapping**, with minimal training and ground truth labels.
 
 <p align="center">
   <img src="./images/Diagram.png" width="60%">
@@ -19,9 +19,9 @@ pip install -e .
 ```
 
 
-## 📦 Open Datasets
-We provide download links for the following components:
-- smart_transfer_data
+## 📦 Open Datasets - ST_Turkey_2023
+To faciliate the reproducibility, we made our dataset **ST_Turkey_2023** openly available for the research community. The download links (in both Baidu and Google) are provided as follows, which include the following components:
+- smart_transfer_data for training
 - tiles_meta
 - GlobalBuildingAtlas (derived from: https://doi.org/10.5194/essd-17-6647-2025)
 
@@ -35,7 +35,7 @@ https://pan.baidu.com/s/1a6UvOLxcE_BWcq-qgpOGLA (Password: `2026`)
   <img src="./images/Dataset.jpeg" width="95%">
 </p>
 
-The following components are **not included** and need to be downloaded manually:
+The following components are **not included** thus need to be downloaded manually:
 - DINOv3 repository (model backbone)
 - ViT-L/16 distilled (model weights)
 
@@ -108,6 +108,17 @@ We also provide additional configurations for varying training ratios and few-sh
 
 ## 📖 Reference
 
-
+If you find our work useful in your research please consider citing the ProbGLC paper.
+```
+@article{li2025proglc,
+     title={Towards Generative Location Awareness for Disaster Response: A Probabilistic Cross-view Geolocalization Approach},
+     author={Hao Li, Liwei Zou, Wenping Yin, Gulsen Taskin, Naoto Yokoya, Danfeng Hong and Wufan Zhao},
+     year={2026},
+     eprint={},
+     archivePrefix={arXiv},
+     primaryClass={cs.CV},
+     url={},
+}
+```
 
 ## 🧑‍🤝‍🧑 Acknowledge
