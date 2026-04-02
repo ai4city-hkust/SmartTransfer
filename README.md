@@ -32,7 +32,7 @@ https://drive.google.com/drive/folders/1JSuWZE46PF0tpB_cU0-MpEnelA5cxGfj?usp=sha
 https://pan.baidu.com/s/1a6UvOLxcE_BWcq-qgpOGLA (Password: `2026`)
 
 <p align="center">
-  <img src="./images/Dataset.jpeg" width="95%">
+  <img src="./images/Dataset.png" width="95%">
 </p>
 
 The following components are **not included** thus need to be downloaded manually:
